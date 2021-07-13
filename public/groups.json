@@ -5,6 +5,9 @@
       "id": "modifier-keys",
       "files": [
         {
+          "path": "json/hyper_key.json"
+        },
+        {
           "path": "json/bepo-cmdqwerty-toggle.json"
         },
         {
@@ -48,10 +51,6 @@
         },
         {
           "path": "json/double_tap_ctrl_to_cmd.json"
-        },
-        {
-          "path": "json/dual_keys.json",
-          "extra_description_path": "extra_descriptions/dual_keys.json.html"
         },
         {
           "path": "json/e0da_caps_lock.json"
@@ -103,6 +102,15 @@
         },
         {
           "path": "json/ctrl_option_command_tab_change.json"
+        },
+        {
+          "path": "json/swap_alt_cmd_in_term.json"
+        },
+        {
+          "path": "json/control_shift_copy_paste.json"
+        },
+        {
+          "path": "json/capslock_shift_copy_paste.json"
         }
       ]
     },
@@ -152,8 +160,8 @@
           "extra_description_path": "extra_descriptions/emacs_key_bindings.json.html"
         },
         {
-          "path": "json/ergoemacs_mode.json",
-          "extra_description_path": "extra_descriptions/ergoemacs_mode.json.html"
+          "path": "json/ergo_fly_keys.json",
+          "extra_description_path": "extra_descriptions/ergo_fly_keys.json.html"
         },
         {
           "path": "json/fc660c_arrow_keys.json"
@@ -434,6 +442,18 @@
         },
         {
           "path": "json/KeynoteAndIllustrator.json"
+        },
+        {
+          "path": "json/apple_mail_shortcuts.json"
+        },
+        {
+          "path": "json/slack_shortcuts.json"
+        },
+        {
+          "path": "json/eject_to_activate_and_toggle_mic_mute_ms_teams.json"
+        },
+        {
+          "path": "json/shift-enter-fish-shell-autocomplete.json"
         }
       ]
     },
@@ -475,7 +495,8 @@
           "extra_description_path": "extra_descriptions/codemak.json.html"
         },
         {
-          "path": "json/neo2.json"
+          "path": "json/neo2.json",
+          "extra_description_path": "extra_descriptions/neo2.json.html"
         },
         {
           "path": "json/half-qwerty.json",
@@ -533,6 +554,9 @@
           "path": "json/jis_to_ascii.json"
         },
         {
+          "path": "json/jis_to_us_symbols.json"
+        },
+        {
           "path": "json/german_pc_shortcuts.json"
         },
         {
@@ -553,6 +577,9 @@
         },
         {
           "path": "json/czech_pc_shortcuts.json"
+        },
+        {
+          "path": "json/spanish_accents.json"
         },
         {
           "path": "json/swap_pound_and_hash.json"
@@ -652,6 +679,9 @@
         },
         {
           "path": "json/ctrl_L-OR-ctrl_R+up-to-down-arrow.json"
+        },
+        {
+          "path": "json/ctrl_b-OR-ctrl_f-TO-left-OR-right-arrow.json"
         },
         {
           "path": "json/ctrl_arrows_to_option_arrows.json"
@@ -775,6 +805,9 @@
           "path": "json/section_sign_to_escape.json"
         },
         {
+          "path": "json/section_sign_to_backtick.json"
+        },
+        {
           "path": "json/sinoridha_personal_mapping.json"
         },
         {
@@ -799,6 +832,12 @@
         },
         {
           "path": "json/caps_escape.json"
+        },
+        {
+          "path": "json/right_command_v_special_paste.json"
+        },
+        {
+          "path": "json/right_command_take_screenshot.json"
         }
       ]
     },
@@ -926,13 +965,7 @@
           "path": "json/quattro_tkl_for_mac_jis.json"
         },
         {
-          "path": "json/KeychronK6F1HelperShortcuts.json"
-        },
-        {
           "path": "json/durgod-iso-uk-pt-extras-macos.json"
-        },
-        {
-          "path": "json/keychron_k6_escapemods.json"
         },
         {
           "path": "json/Razer_Tartarus_v2.json",
@@ -952,6 +985,19 @@
         },
         {
           "path": "json/razer_orbweaver_chroma.json"
+        },
+        {
+          "path": "json/keychron_k3-swap_pound_and_hash.json"
+        },
+        {
+          "path": "json/hhkb_rctf.json"
+        },
+        {
+          "path": "json/PC-Style_Shortcuts_Copy_Ctrl_Insert.json"
+        },
+        {
+          "path": "json/yubikey_disable_keystrokes.json",
+          "extra_description_path": "extra_descriptions/yubikey_disable_keystrokes.json.rb.html"
         }
       ]
     },
@@ -1125,8 +1171,15 @@
       "id": "Keychron K6",
       "files": [
         {
+          "path": "json/keychron-k6-shortcuts.json",
+          "extra_description_path": "extra_descriptions/keychron-k6-shortcuts.json.html"
+        },
+        {
           "path": "json/keychron_k6_better_escape.json",
           "extra_description_path": "extra_descriptions/keychron_k6_better_escape.json.html"
+        },
+        {
+          "path": "json/keychron_k6_escapemods.json"
         }
       ]
     },
@@ -1154,6 +1207,16 @@
       "files": [
         {
           "path": "json/kkmoon-usb-foot-switch-mute-microsoft-teams.json"
+        }
+      ]
+    },
+    {
+      "name": "Vi and other (Workman keyboard layout)",
+      "id": "Vi and other (Workman keyboard layout)",
+      "files": [
+        {
+          "path": "json/Vi_and_other_workman.json",
+          "extra_description_path": "extra_descriptions/Vi_and_other_Workman.html"
         }
       ]
     }
@@ -1185,7 +1248,20 @@
           "path": "json/nyankko.json"
         },
         {
+          "path": "json/right_shift_to_switch_language.json"
+        },
+        {
           "path": "json/caps_lock_tapped_caps_held_cmd.json"
+        }
+      ]
+    },
+    {
+      "name": "Logitech G502 Hero",
+      "id": "Logitech G502 Hero",
+      "files": [
+        {
+          "path": "json/logitech-g502-hero-shortcuts.json",
+          "extra_description_path": "extra_descriptions/logitech-g502-hero-shortcuts.json.html"
         }
       ]
     },
